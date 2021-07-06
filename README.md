@@ -14,7 +14,7 @@ Unveiling a different approach to common requierments in app data management wit
 Thanks to the integration with Expo, running the app is mostly straightforward:
 1. Make sure Node.js is insalled in yor system, this will install alongside npm packege manager. For help go to [Node.js documentation](https://nodejs.org/en/).
 2. Make sure the Expo expo-cli application is insalled in yor system, if is not, install it with `npm install -g expo-cli`.
-3. Navigate in console to the app folder.
+3. Navigate in console to the app folder and run `npm install` command, and wait for completion.
 4. Run `npm start` and wait for the debug interface to open in your browser.
 5. From there you can run the app on your mobile device with the help of the Expo Go application.
 6. Download Expo Go on your device and link with the debug server using the url or the QR code.
