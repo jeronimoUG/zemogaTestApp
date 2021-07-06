@@ -2,6 +2,7 @@
 Posts demo app for Zemoga's React Native Tryouts, build on Expo for the sake of simplicity.
 ## Development Review
 Simple app developed with Hooks as central piece, bussines logic and data are encapsulated in a single interface which feeds the entire app with the use of Async Storage and a series of listening components or functions.
+
 Unveiling a different approach to common requierments in app data management with a homebrew cache and global state system, accesible trought a Hook in different parts of the app and mutating state across all registered listeners.
 - TypeScript ensuring data cohersion.
 - Async Storage as simple cache without exparicy (mostly for demostration purposes).
