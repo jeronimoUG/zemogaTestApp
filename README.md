@@ -8,4 +8,10 @@ Simple app developed with Hooks as central piece, bussines logic and data are en
 - Dependencies and third-party libraries keep at minimum (mostly as an exercise).
 - Jest for testing (just a couple of super basic small tests have been implemented).
 ## Running The App
-Thanks to the integration of Expo, running the app is mostly straightforward:
+Thanks to the integration with Expo, running the app is mostly straightforward:
+1. Make sure Node.js is insalled in yor system, this will install alongside npm packege manager. For help go to [Node.js documentation](https://nodejs.org/en/).
+2. Make sure the Expo expo-cli application is insalled in yor system, if is not, install it with `npm install -g expo-cli`.
+3. Navigate in console to the app folder.
+4. Run `npm start` and wait for the debug interface to open in your browser.
+5. From there you can run the app on your mobile device with the help of the Expo Go application.
+6. Download Expo Go on your device and link with the debug server using the url or the QR code.
