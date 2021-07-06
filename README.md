@@ -6,7 +6,8 @@ Unveiling a different approach to common requierments in app data management wit
 - TypeScript ensuring data cohersion.
 - Async Storage as simple cache without exparicy (mostly for demostration purposes).
 - Centralized states in the form of a Hook, keeps app updated accross screens and data cached (for demostration purposes).
-- Dependencies and third-party libraries keep at minimum (mostly as an exercise).
+- Gestures build on top of React Native's PanResponder.
+- Code base, dependencies and third-party libraries keep at minimum (mostly as an exercise).
 - Jest for testing (just super basic small tests for a single component have been implemented).
 ## Running The App
 Thanks to the integration with Expo, running the app is mostly straightforward:
