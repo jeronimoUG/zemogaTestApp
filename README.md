@@ -1,12 +1,13 @@
 # Jeronimo UG | Zemoga Test App
 Posts demo app for Zemoga's React Native Tryouts, build on Expo for the sake of simplicity.
 ## Development Review
-Simple app developed with Hooks as central piece, bussines logic and data are encapsulated in a single interface which feeds the entire app with the use of Async Storage.
+Simple app developed with Hooks as central piece, bussines logic and data are encapsulated in a single interface which feeds the entire app with the use of Async Storage and a series of listening components or functions.
+Unveiling a different approach to common requierments in app data management with a homebrew cache and global state system, accesible trought a Hook in different parts of the app and mutating state across all registered listeners.
 - TypeScript ensuring data cohersion.
 - Async Storage as simple cache without exparicy (mostly for demostration purposes).
-- Centralized states in the form of a Hook, keeps app updated accross screens and data cached, serving a basic global state management (mostly for demostration purposes, usual solution Redux).
+- Centralized states in the form of a Hook, keeps app updated accross screens and data cached (for demostration purposes).
 - Dependencies and third-party libraries keep at minimum (mostly as an exercise).
-- Jest for testing (just a couple of super basic small tests have been implemented).
+- Jest for testing (just super basic small tests for a single component have been implemented).
 ## Running The App
 Thanks to the integration with Expo, running the app is mostly straightforward:
 1. Make sure Node.js is insalled in yor system, this will install alongside npm packege manager. For help go to [Node.js documentation](https://nodejs.org/en/).
