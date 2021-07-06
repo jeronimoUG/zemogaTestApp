@@ -15,3 +15,5 @@ Thanks to the integration with Expo, running the app is mostly straightforward:
 4. Run `npm start` and wait for the debug interface to open in your browser.
 5. From there you can run the app on your mobile device with the help of the Expo Go application.
 6. Download Expo Go on your device and link with the debug server using the url or the QR code.
+### Test
+There are just test for a single hook in some conditions, those can be runt from the app's directory using `npm test`.
