@@ -11,7 +11,7 @@ import { useState, useEffect } from 'react';
 import useApi from './useApi.hook';
 import useCache from './useCache.hook';
 
-type Api = {
+export type Api = {
     list: (filters?: any, nonEmpty?: boolean) => Promise<Array<any>>,
     pick: (id: number) => Promise<any>,
     remove: (id: number) => Promise<any>,
@@ -20,7 +20,7 @@ type Api = {
     clear: () => Promise<Array<any>>
 }
 
-type useDataHook = (dataName: string, dataInitialTranform?: Function) => {
+export type useDataHook = (dataName: string, dataInitialTranform?: Function) => {
     status: string,
     data: Array<any>,
     api: Api

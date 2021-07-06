@@ -8,7 +8,7 @@
  */
 
 import 'react-native-gesture-handler';
-import React from 'react';
+import React, { FC } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Posts from './src/screens/Posts.screen';
@@ -28,7 +28,7 @@ if (Platform.OS === 'android') {
 }
 
 // Main app component function
-const App = () => {
+const App: FC<any> = () => {
     // Applying useData hook to use centralizaed 'posts' state
     const posts = useData('posts', (data: Array<any>) => data.map((entry, index) => ({ ...entry, unread: index < 20, favorite: false })));
     // Actions for header buttons
