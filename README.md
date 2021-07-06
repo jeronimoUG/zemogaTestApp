@@ -17,5 +17,5 @@ Thanks to the integration with Expo, running the app is mostly straightforward:
 6. Download Expo Go on your device and link with the debug server using the url or the QR code.
 ### Test
 There are just test for a single hook in some conditions, those can be runt from the app's directory using `npm test`.
- ______________________________________________________________________________________________________________________________________________________________
-|![Screeshot Posts Screen](https://github.com/jeronimoUG/zemogaTestApp/blob/main/screen-1.png?raw=true)|![Screeshot Posts Screen](https://github.com/jeronimoUG/zemogaTestApp/blob/main/screen-1.png?raw=true)
+
+![Screeshot Posts Screen](https://github.com/jeronimoUG/zemogaTestApp/blob/main/screen-1.png?raw=true) ![Screeshot Posts Screen](https://github.com/jeronimoUG/zemogaTestApp/blob/main/screen-1.png?raw=true)
