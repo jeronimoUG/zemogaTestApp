@@ -21,4 +21,4 @@ Thanks to the integration with Expo, running the app is mostly straightforward:
 ### Test
 There are just test for a single hook in some conditions, those can be runt from the app's directory using `npm test`.
 
-![Screeshot Posts Screen](https://github.com/jeronimoUG/zemogaTestApp/blob/main/screen-1.png?raw=true) ![Screeshot Posts Screen](https://github.com/jeronimoUG/zemogaTestApp/blob/main/screen-1.png?raw=true)
+![Screeshot Posts Screen](https://github.com/jeronimoUG/zemogaTestApp/blob/main/screen-1.png?raw=true) ![Screeshot Posts Screen](https://github.com/jeronimoUG/zemogaTestApp/blob/main/screen-2.png?raw=true)
